@@ -50,12 +50,12 @@ function comprobar(num){
 
         var record = 0;
         var igual = 1;
-        var letraRecord
+        var letraRecord;
         var b = 0;
         var letra = "";
 
         for(var a = 1; a < esto.length; a++){
-            if(esto.charAt(a)=="+" || esto.charAt(a) || esto.charAt(a)=="*" || esto.charAt(a)=="/"){
+            if(esto.charAt(a)=="+" || esto.charAt(a)=="-" || esto.charAt(a)=="*" || esto.charAt(a)=="/"){
                 igual=igual+1;
                 letra=esto.charAt(a);
             }else{
